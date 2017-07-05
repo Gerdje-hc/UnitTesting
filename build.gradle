@@ -1,0 +1,13 @@
+apply plugin: "java"
+
+repositories {
+    mavenCentral()
+    }
+dependencies {
+        compile "org.slf4:slf4j-api:1.7.22"
+        compile "org.primefaces.extensions:all-themes:1.0.8"
+        testCompile 'junit:junit:4.12'
+
+
+    }
+}
